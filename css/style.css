@@ -1,20 +1,18 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid; */
+    /* border: 1px solid;  */
 }
 
-.debug{
-    
-}
+.debug {}
 
-header{
-    width: 80%;
+header {
+    width: 60%;
     margin: auto;
 }
 
-nav{
+nav {
     display: flex;
     background-color: #d9817d;
     justify-content: space-between;
@@ -22,7 +20,7 @@ nav{
 
 }
 
-.hero{
+.hero {
     background-color: #95a8e3;
     min-height: 300px;
     width: 100%;
@@ -31,9 +29,63 @@ nav{
     align-items: center;
 }
 
-.content{
- background-color: #abaebd;
- min-width: 200px;
- min-height: 100px;
+.hero_content {
+    background-color: #abaebd;
+    min-width: 400px;
+    min-height: 200px;
 }
 
+.container_first {
+
+    width: 60%;
+    background-color: #fbdb9e;
+    min-height: 300px;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+}
+
+.row_section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    background-color: #cec2aa;
+    min-height: 250px;
+}
+
+.col_60 {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    background-color: #8fe2aa;
+    min-height: 200px;
+}
+
+.col_40 {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin: auto;
+    background-color: #8fe2aa;
+    min-height: 200px;
+}
+
+.card_60 {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    background-color: #85c0c6;
+    min-height: 150px;
+}
+
+.card_40 {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    background-color: #85c0c6;
+    min-height: 150px;
+}
