@@ -31,17 +31,17 @@ nav {
 
 .hero_content {
     background-color: #abaebd;
-    min-width: 400px;
+    min-width: 350px;
     min-height: 200px;
 }
 
-.container_first {
+.container_flex {
 
     width: 60%;
     background-color: #fbdb9e;
     min-height: 300px;
     margin: auto;
-    margin-top: 2rem;
+    
     display: flex;
 }
 
@@ -88,4 +88,15 @@ nav {
     margin: auto;
     background-color: #85c0c6;
     min-height: 150px;
+}
+
+.no_color{
+    min-height: 600px;
+    display: flex;
+}
+
+.colored{
+    background-color: #f6f6f6;
+    min-height: 600px;
+    display: flex;
 }
