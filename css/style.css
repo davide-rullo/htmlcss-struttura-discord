@@ -18,6 +18,8 @@ nav {
     justify-content: space-between;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    border: 1px;
+    border-style: dashed;
 }
 
 
