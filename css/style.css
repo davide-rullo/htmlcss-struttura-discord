@@ -14,15 +14,16 @@ body{
 }
 
 header{
-    display: flex;
-    justify-content: space-between;
+   
     width: 80%;
-    background-color: aqua;
+    background-color: #d9817d;
     margin: auto;
 }
 
 nav{
     display: flex;
-   justify-content: space-between;
+    justify-content: space-between;
+
 }
+
 
