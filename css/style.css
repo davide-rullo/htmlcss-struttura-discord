@@ -94,8 +94,17 @@ nav {
     min-height: 420px;
     margin-top: 2rem;
 }
+
 .colored{
     background-color: #f6f6f6;
     min-height: 420px;
     display: flex;
+}
+
+#last_section{
+    min-height: 700px;
+}
+
+#full_container{
+    min-height: 600px;
 }
